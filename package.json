@@ -1,0 +1,17 @@
+{
+  "name": "crud-completo-vanilla-js",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aplicación Vanilla JS pegando una API para hacer un CRUD completo.",
+  "author": "Israel Collado",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  }
+}

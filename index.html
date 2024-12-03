@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Completo - Vanilla JS</title>
+    <link rel="stylesheet" href="./public/src/styles.css">
+</head>
+<body>  
+  <div id="app">
+    <header>
+      <h1>CRUD Completo - Vanilla JS</h1>
+    </header>
+
+    <main>
+      <section aria-labelledby="user-form-title">
+        <h2 id="user-form-title">Agregar/Actualizar Usuario</h2>
+        <form id="user-form" aria-labelledby="user-form-title"> 
+          <input type="text" name="name" id="name" placeholder="Nombre" required aria-required="true">
+          <input type="email" name="email" id="email" placeholder="Email" required aria-required="true">
+          <button type="submit" id="submit">Enviar</button>
+        </form>
+      </section>
+
+      <hr>
+
+      <section>
+        <h2>Lista de Usuarios</h2>
+        <ul id="user-list" class="list"></ul>
+      </section>
+
+      <hr>
+      
+    </main>
+
+    <footer>
+      <p>&copy; 2024 CRUD Completo - Vanilla JS. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="./public/src/main.js"></script>
+</body>
+</html>
