@@ -3,7 +3,7 @@
 Este es un proyecto de aplicación CRUD (Crear, Leer, Actualizar, Eliminar) construido con JavaScript puro (Vanilla JS) y Vite. La aplicación permite gestionar una lista de usuarios utilizando la API pública de JSONPlaceholder.
 
 <p align="center">
-  <img src="app-crud.png" alt="CRUD App" width="400"/>
+  <img src="app-crud.png" alt="CRUD App" width="100%"/>
 </p>
 
 ## Características ✨
